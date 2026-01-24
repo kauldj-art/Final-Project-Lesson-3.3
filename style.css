@@ -16,10 +16,33 @@ li {
     list-style-type: none;
 }
 
+h1 {
+    font-size: 48px;
+    color: #1a202c;
+    line-height: 1.25;
+}
+
+p {
+   font-size: 18px;
+   line-height: 1.5; 
+}
+
 .row {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
+}
+
+.container {
+    padding: 96px 0;
+}
+
+.purple {
+    color: #6415ff;
+}
+
+header {
+    position: relative;
 }
 
 /*
@@ -73,6 +96,10 @@ nav {
     text-decoration: none;
 }
 
+.nav__link:hover {
+    text-decoration: underline;
+}
+
 .login {
     margin-left: 48px;
 }
@@ -88,6 +115,31 @@ nav {
     border: none;
     width: auto;
     transition: all 300ms ease;
+}
+
+.nav__link--primary:hover {
+    background-color: rgba(80, 17, 204);
+    text-decoration: none;
+}
+
+/*
+
+HEADER
+
+*/
+
+header .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__description {
+    width: 40%;
+}
+
+.header__description--para {
+    margin: 32px 0;
 }
 
 
