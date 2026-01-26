@@ -238,16 +238,10 @@ FEATURES
     position: relative;
 }
 
-#features .row__narrow {
+#features .row {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.row__narrow {
-    width: 100%;
-    max-width: 1024;
-    margin: 0 auto;
 }
 
 .section__tag {
