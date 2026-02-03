@@ -468,6 +468,17 @@ STEPS SECTION
     line-height: 2;
 }
 
+/*
+
+VALUES
+
+*/
+
+.value__img {
+    width: 20px;
+    height: 20px;
+}
+
 
 
 
