@@ -1135,4 +1135,32 @@ footer {
     background-color: rgba(203, 213, 224);
 }
 
+@media(max-width: 1024px) {
+    .nav__links {
+        display: none;
+    }
+
+    .btn__menu {
+        display: block;
+    }
+
+    header .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header__description {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header__description, .header__img--wrapper {
+        width: 100%;
+        max-width: 512px;
+        margin: 0 auto;
+    }
+}
+
 
