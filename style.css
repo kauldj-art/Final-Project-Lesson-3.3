@@ -606,6 +606,10 @@ VALUES
     width: 50%;
 }
 
+.values__img {
+    width: 50%;
+}
+
 /*
 
 PRICING PLANS
@@ -1184,6 +1188,12 @@ footer {
         width: calc(100% - 40%);
     }
 
+    .steps__grid {
+        height: 5rem;
+        width: 5rem;
+        bottom: -50px;
+    }
+
 }
 
 @media (max-width: 1024px) {
@@ -1289,4 +1299,218 @@ footer {
 
 }
 
+@media (max-width: 768px) {
+
+    main {
+        margin-bottom: 80px;
+    }
+
+    .nav__logo {
+        margin: 8px 0;
+        padding-bottom: 4px;
+    }
+
+    .container {
+        padding: 80px 0;
+    }
+
+    .header__email {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .header__email--input {
+        position: static;
+        padding: 16px 0;
+        padding-left: 32px;
+        line-height: 1.5;
+    }
+
+    .header__email--btn {
+        width: 100%;
+        padding: 16px 0;
+        margin: 16px 0;
+        margin-bottom: 0px;
+        line-height: 1.5;
+    }
+
+    .header__customers--title {
+        font-size: 14px;
+        letter-spacing: 0.05em;
+    }
+
+    #features .section__title, #pricing .section__title {
+        font-size: 36px;
+    }
+
+    .section__para {
+        font-size: 14px;
+    }
+
+    .feature {
+        width: auto;
+        max-width: 384px;
+    }
+
+    .feature__row {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .feature__text {
+        margin-left: 0px;
+        margin-top: 16px;
+    }
+
+    .feature__title {
+        letter-spacing: 0.025em;
+        line-height: 1;
+    }
+
+    .feature__para {
+        margin-top: 4px;
+        line-height: 2;
+    }
+
+    #quality .row, #values .row {
+        flex-direction: column-reverse;
+    }
+
+    .quality__description, .quality__img--wrapper, .steps__description, .steps__img--wrapper, .values__description, .values__img, .testimonials__description, .testimonials__img {
+        width: 100%;
+        max-width: 448px;
+    }
+
+    .quality__description, .steps__description, .values__description, .testimonials__description {
+        padding: 0;
+        margin-top: 64px;
+        text-align: center;
+    }
+
+    .section__title {
+        font-size: 30px;
+    }
+
+    .btn {
+        line-height: 1.5;
+    }
+
+    #steps .row, #testimonials .row {
+        flex-direction: column;
+    }
+
+    .values__list {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .value:nth-of-type(1) {
+        margin-right: 0px;
+    }
+
+    .value {
+        margin-right: 0px;
+        align-items: center;
+    }
+
+    #pricing .row {
+        margin-top: 40px;
+    }
+
+    .plan__price {
+        font-size: 36px;
+    }
+
+    .plan__bottom {
+        padding: 2rem 1rem;
+    }
+
+    .testimonials__description {
+        padding-left: 0;
+    }
+
+    .testimonial__para {
+        margin-bottom: 32px;
+    }
+
+    .testimonial__bottom {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 4px;
+    }
+
+    .testimonial__profile {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .testimonial__img {
+        height: 64px;
+        width: 64px;
+    }
+
+    .testimonial__details {
+        margin-left: 0;
+        margin-top: 8px;
+    }
+
+    .testimonial__buttons {
+        margin-top: 32px;
+    }
+
+    .start__container {
+        padding: 80px 0;
+    }
+
+    .start__title {
+        font-size: 24px;
+    }
+
+    .start__buttons {
+        flex-direction: column;
+    }
+
+    .start__button:nth-child(1) {
+        margin-right: 0;
+    }
+
+    .start__button:nth-child(2) {
+        margin-top: 16px;
+    }
+
+    .footer__columns {
+        justify-content: center;
+    }
+
+    .footer__column {
+        width: auto;
+        padding: 0 16px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .footer__bottom {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer__copyright {
+        font-size: 14px;
+        text-align: center;
+        line-height: 1.5;
+    }
+
+    .footer__socials {
+        margin-top: 32px;
+        margin-left: 0;
+    }
+
+    .footer__social--link:first-child {
+        margin-left: 0px;
+    }
+    
+
+
+}
 
